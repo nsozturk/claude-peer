@@ -1,0 +1,44 @@
+{
+  "name": "claude-peer",
+  "version": "1.0.0",
+  "description": "Native local Unix Domain Socket (UDS) peer bridge, inter-agent messaging & live session streamer for Claude Code and Claude Desktop.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "types": "./types/index.d.ts",
+  "bin": {
+    "claude-peer": "./bin/claude-peer.mjs"
+  },
+  "files": [
+    "src",
+    "bin",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ipc",
+    "unix-domain-socket",
+    "multi-agent",
+    "agentic-ai",
+    "reverse-engineering",
+    "claude-desktop"
+  ],
+  "author": "ns0bj <nsozturk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsozturk/claude-peer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nsozturk/claude-peer/issues"
+  },
+  "homepage": "https://github.com/nsozturk/claude-peer#readme"
+}
